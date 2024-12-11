@@ -1,0 +1,9 @@
+.background {
+  -fx-background-color: #342852;
+}
+.button {
+  -fx-background-color: silver;
+}
+.display {
+  -fx-background-color: #cccccc;
+}

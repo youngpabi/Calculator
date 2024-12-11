@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="345.0" styleClass="background" stylesheets="@main.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.App">
+   <children>
+      <Button layoutX="86.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="1">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="143.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="2">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="200.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="3">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="86.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="4">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="143.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="5">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="200.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="6">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="86.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="7">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="143.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="8">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="200.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="55.0" text="9">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <TextField fx:id="display" alignment="BOTTOM_RIGHT" editable="false" layoutX="29.0" layoutY="54.0" prefHeight="69.0" prefWidth="294.0" styleClass="display" text="0">
+         <font>
+            <Font name="Lucida Console" size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="5.0" right="10.0" top="18.0" />
+         </padding>
+      </TextField>
+      <Button layoutX="29.0" layoutY="131.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="49.0" prefWidth="128.0" text="C" textFill="#050dff">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="209.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="115.0" text="=" textFill="#540101">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="257.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="69.0" prefWidth="67.0" text="＋" textFill="#5406f2">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="152.0" layoutY="332.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="54.0" prefWidth="55.0" text="0">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding></Button>
+      <Button layoutX="257.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="66.0" prefWidth="67.0" text="－" textFill="#038a83">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="257.0" layoutY="131.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="49.0" prefWidth="67.0" styleClass="background" text="×">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3933649289099526">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button layoutX="159.0" layoutY="131.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="49.0" prefWidth="96.0" styleClass="background" text="÷" textFill="#00720f">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="29.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="140.0" prefWidth="55.0" text="AC" textFill="#ff0404">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="29.0" layoutY="332.0" mnemonicParsing="false" onAction="#handleOnAnyButtonClicked" prefHeight="44.0" prefWidth="121.0" text="." textFill="#02a3e0">
+         <padding>
+            <Insets bottom="13.0" left="13.0" right="13.0" top="14.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
